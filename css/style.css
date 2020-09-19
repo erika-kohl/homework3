@@ -149,7 +149,8 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: sticky;
+  position: fixed;
+  bottom: 0;
 }
 
 
