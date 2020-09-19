@@ -55,11 +55,9 @@ p{
  /*for styling links*/ 
 a{
   font-size: 16px;
-  color: #C12258;
+  color: #B21F50;
   text-decoration-line: underline;
   text-decoration-style: wavy;
-
-
 }
 
 table{
@@ -69,18 +67,13 @@ table{
     border-radius: 10px;
 }
 
-thead:last-child{
-  border-top-right-radius: 10px;
-}
-tfoot:last-child{
-  border-bottom-right-radius: 10px;
-}
 
 td{
   text-align: center;
   border-top: 2px solid black;
   padding: 10px;
 }
+
 
 /*b.	Column headers are always at least 125px wide, with 10px of padding. Column header text is white, centered horizontally and vertically, and uppercase with a dark red background (#7e0820).*/
 
@@ -105,15 +98,10 @@ td{
 
 }
 
-td{
-  padding: 15px;
-}
-
 
 /*
 *{
 */
-
 
 
 tr:nth-child(odd) {
