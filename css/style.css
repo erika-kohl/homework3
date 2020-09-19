@@ -81,9 +81,9 @@ td{
   background-color: #7e0830;
   color: #FFFFFF;
   min-width: 125px;
-  padding: 10px 0;
+  padding: 10px;
   text-transform: uppercase;
-  margin: auto;
+  text-align: center;
   vertical-align: middle;
 
 }
@@ -105,12 +105,14 @@ td{
 
 
 tr:nth-child(odd) {
-  background-color: #D1D1D1;
+  background-color: transparent;
 }
 
 tr:nth-child(even) {
-  background-color: transparent;
+  background-color: #D1D1D1;
 }
+
+
 
 
 tr:hover {
@@ -147,7 +149,7 @@ footer{
   text-align:center;
   color: #FFFFFF;
   min-height: 75px;
-  position: absolute;
+  position: sticky;
 }
 
 
